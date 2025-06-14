@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Bebas+Neue&family=Montserrat&display=swap');
+*{
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 24px;
+}
+
+.home-text {
+    width: 35%;
+    padding-top: 7rem;
+}
+.home-text h3{
+    font-size: 2em;
+    color: #333;
+    font-weight: 200;
+    transition: 0.5s;
+}
+
+.home-text h1{
+    font-size: 4em;
+    color: #333;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-weight: 700;
+}
+
+.home-text span{
+    color: #FE938C;
+}
+
+.home-text p {
+    font-size: 1.2em;
+    color: #666;
+    margin: 10px 0;
+    transition: 0.5s;
+}
+
+.home-media ion-icon {
+    font-size: 2em;
+    color: #333;
+    margin: 10px 0;
+    transition: 0.5s;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+.about h1 {
+    font-size: 4em;
+    color: #333;
+    /*font-family: fantasy;*/
+    margin-top: 5rem;
+    font-weight: bold;
+}
+
+.about-info h1{
+    font-size: 5.5em;
+    color: #333;
+    font-weight: 700;
+    margin-top: 5rem;
+}
+
+.about-info h3{
+    font-size: 1.4em;
+    color: #333;
+    font-weight: 200;
+}
+
+.about-info h2{
+    font-size: 3.5em;
+    color: #333;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+
+.about-social {
+    font-size: 2em;
+    color: #333;
+    margin: 10px 0;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+}
+
+.about-social i{
+    margin-right: 2em;
+}
+
+.work-skill button {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.work-skill .skill-list {
+    width: 70%;
+    margin-top: 3rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.card a {
+    text-decoration: none;
+    color: #333;
+}
+
+.work-projects h1 {
+    font-size: 5em;
+    color: #333;
+    /* font-weight: 300; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+}
+
+.work-projects h3 {
+    font-size: 2.5em;
+    color: #333;
+    /* font-weight: 100; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+
+}
+
+.contact-text h1 {
+    font-size: 5.5em;
+    color: #333;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5rem;
+}
+
+.contact-text h3 {
+    font-size: 1.4em;
+    color: #333;
+    font-weight: 200;
+}
+
+footer .content a{
+    text-decoration: none;
+    margin: 2rem;
+    color: black;
+}
+
+footer .content{
+    display: flex;
+    justify-content: center;
+}
+
+footer .content-social{
+    display: flex;
+    justify-content: center;
+}
+
+footer .content-social i{
+    text-decoration: none;
+    margin: 2rem;
+    color: black;
+    font-size: 2rem;
+}
+
+.navbar-nav a {
+    font-size: 1.2em;
+}
+
+
+/* timeline */
+
+.timeline {
+    border-left: 1px solid hsl(0, 1%, 75%);
+    position: relative;
+    list-style: none;
+  }
+  
+  .timeline .timeline-item {
+    position: relative;
+  }
+  
+  .timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+  }
+  
+  .timeline .timeline-item:after {
+    background-color: hsl(0, 0%, 90%);
+    left: -38px;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+  }
+
+  
+  .carousel-control-next,
+  .carousel-control-prev /*, .carousel-indicators */ {
+      filter: invert(100%);
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 8px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+    background: #ccc; 
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: #333; 
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background: #151515; 
+    }
